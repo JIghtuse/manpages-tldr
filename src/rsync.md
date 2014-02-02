@@ -24,3 +24,9 @@ Transfer all \*.js files in current directory to host 'devbox' as user 'mike'.
 Transfer a directory and all its children from a remote to local.
 
     rsync -r mike@devbox:~/projects/cakeStore /Users/mike/devProjects/
+
+Transfer a directory and all its children from a remote to local, with compression enabled, while the remote uses a non-standard port 30
+
+    rsync -zr -e 'ssh -p 30' mike@devbox:~/projects/cakeStore /Users/mike/devProjects/
+
+    
