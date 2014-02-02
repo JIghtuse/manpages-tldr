@@ -37,5 +37,14 @@ Transfer a directory and all its children from a remote to local.
 rsync\ \-r\ mike\@devbox:~/projects/cakeStore\ /Users/mike/devProjects/
 \f[]
 .fi
+.PP
+Transfer a directory and all its children from a remote to local, with
+compression enabled, while the remote uses a non\-standard port 30
+.IP
+.nf
+\f[C]
+rsync\ \-zr\ \-e\ \[aq]ssh\ \-p\ 30\[aq]\ mike\@devbox:~/projects/cakeStore\ /Users/mike/devProjects/
+\f[]
+.fi
 .SH AUTHORS
 andrewboerema, John Wu, Boris Egorov.
