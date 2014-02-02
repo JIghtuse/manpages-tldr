@@ -2,9 +2,9 @@
 % Romain Prieto, Boris Egorov
 % 2014-02-02
 
-# chown
+# NAME
 
-> Change the owning user/group of the specified files
+chown - change the owning user/group of the specified files
 
 Change the user of a file.
 
