@@ -1,4 +1,4 @@
-.TH GIT\-STASH 1 "2014\-02\-02" "manpages\-tldr manuals"
+.TH "GIT\-STASH" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
 .SH NAME
 .PP
 git stash \- stash local Git changes in a temporary area

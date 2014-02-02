@@ -1,9 +1,7 @@
-.TH CHOWN 1 "2014\-02\-02" "manpages\-tldr manuals"
-.SH chown
-.RS
+.TH "CHOWN" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
 .PP
-Change the owning user/group of the specified files
-.RE
+chown \- change the owning user/group of the specified files
 .PP
 Change the user of a file.
 .IP

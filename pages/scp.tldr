@@ -1,4 +1,4 @@
-.TH SCP 1 "2014\-02\-02" "manpages\-tldr manuals"
+.TH "SCP" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
 .SH NAME
 .PP
 scp \- Copies files between hosts on a network.

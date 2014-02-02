@@ -1,4 +1,4 @@
-.TH MKDIR 1 "2014\-02\-02" "manpages\-tldr manuals"
+.TH "MKDIR" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
 .SH NAME
 .PP
 mkdir \- Creates a directory

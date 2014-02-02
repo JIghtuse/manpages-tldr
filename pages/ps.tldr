@@ -1,4 +1,4 @@
-.TH PS 1 "2014\-02\-02" "manpages\-tldr manuals"
+.TH "PS" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
 .SH NAME
 .PP
 ps \- Information about running processes

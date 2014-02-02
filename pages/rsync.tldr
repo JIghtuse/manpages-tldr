@@ -1,4 +1,4 @@
-.TH RSYNC 1 "2014\-02\-02" "manpages\-tldr manuals"
+.TH "RSYNC" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
 .SH NAME
 .PP
 rsync \- Transfer files either to or from a remote host.

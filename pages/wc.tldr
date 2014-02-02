@@ -1,4 +1,4 @@
-.TH WC 1 "2014\-02\-02" "manpages\-tldr manuals"
+.TH "WC" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
 .SH NAME
 .PP
 wc \- Count words, bytes, or lines
