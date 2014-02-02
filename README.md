@@ -6,3 +6,8 @@ This project aims to make fast-updated, practical and precise manpages with
 [bropages](http://bropages.org/) and [tldr](https://github.com/rprieto/tldr),
 but written as part of real manpages (mostly converted from Markdown with
 pandoc).
+
+TODO
+====
+
+Provide methods for packaging projects to most popular GNU/Linux distributives.
