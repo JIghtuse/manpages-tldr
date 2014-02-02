@@ -22,11 +22,27 @@ man\ \-k\ word
 .PP
 Next commands work in open pager.
 .PP
+Line up / down.
+.IP
+.nf
+\f[C]
+j\ or\ down\ arrow\ /\ k\ or\ up\ arrow
+\f[]
+.fi
+.PP
 Page up / down.
 .IP
 .nf
 \f[C]
-d\ (next),\ D\ (previous)
+PgUp\ or\ Shift\-Space\ /\ PgDn\ or\ Space
+\f[]
+.fi
+.PP
+Half page up / down.
+.IP
+.nf
+\f[C]
+d\ (next),\ u\ (previous)
 \f[]
 .fi
 .PP

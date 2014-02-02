@@ -18,9 +18,13 @@ Search for a word in all manpages.
 
 Next commands work in open pager.
 
+Line up / down.
+
+    j or down arrow / k or up arrow
+
 Page up / down.
 
-    PgUp, PgDn
+    PgUp or Shift-Space / PgDn or Space
 
 Half page up / down.
 
