@@ -12,11 +12,6 @@ This project aims to make fast-updated, practical and precise manpages with
 but written as part of real manpages (mostly converted from Markdown with
 pandoc).
 
-TODO
-----
-
-Provide methods for packaging project to most popular GNU/Linux distributives.
-
 CONTRIBUTING
 ------------
 
