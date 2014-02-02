@@ -1,4 +1,4 @@
-.TH "KILL" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.TH KILL 1 "2014\-02\-02" "manpages\-tldr manuals"
 .SH NAME
 .PP
 kill \- Sends a signal to a process.

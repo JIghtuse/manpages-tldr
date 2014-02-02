@@ -1,4 +1,4 @@
-.TH "ZIP" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.TH ZIP 1 "2014\-02\-02" "manpages\-tldr manuals"
 .SH NAME
 .PP
 zip \- package and compress (archive) files into zip file
