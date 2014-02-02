@@ -8,6 +8,11 @@ but written as part of real manpages (mostly converted from Markdown with
 pandoc).
 
 TODO
-====
+----
 
 Provide methods for packaging projects to most popular GNU/Linux distributives.
+
+CONTRIBUTING
+------------
+
+Fork project, commit and push changes, send pull request.
