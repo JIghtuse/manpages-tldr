@@ -1,0 +1,57 @@
+.TH "MAN" "1" "2014\-02\-03" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+man \- system\[aq]s manual pager.
+.SH EXAMPLES
+.PP
+Open a manual for ls command.
+.IP
+.nf
+\f[C]
+man\ ls
+\f[]
+.fi
+.PP
+Search for a word in all manpages.
+.IP
+.nf
+\f[C]
+man\ \-k\ word
+\f[]
+.fi
+.PP
+Next commands work in open pager.
+.PP
+Page up / down.
+.IP
+.nf
+\f[C]
+d\ (next),\ D\ (previous)
+\f[]
+.fi
+.PP
+Go to start / end of file.
+.IP
+.nf
+\f[C]
+g\ (start),\ G\ (end)
+\f[]
+.fi
+.PP
+Search for a string.
+.IP
+.nf
+\f[C]
+/something\ \ \ then\ \ \ n\ (next),\ N\ (previous)
+\f[]
+.fi
+.PP
+Exit.
+.IP
+.nf
+\f[C]
+q
+\f[]
+.fi
+.SH AUTHORS
+Boris Egorov.
