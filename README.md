@@ -16,3 +16,6 @@ CONTRIBUTING
 ------------
 
 Fork project, commit and push changes, send pull request.
+Please try to follow
+[etiquette](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+of good commit messages.
