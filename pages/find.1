@@ -1,0 +1,33 @@
+.TH "FIND" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+find \- Find files under the given directory tree, recursively
+.SH EXAMPLES
+.PP
+Find files by extension.
+.IP
+.nf
+\f[C]
+find\ root_path\ \-name\ \[aq]*.py\[aq]
+\f[]
+.fi
+.PP
+Run a command for each file.
+Use {} within the command to access the filename..
+.IP
+.nf
+\f[C]
+find\ root_path\ \-name\ \[aq]*.py\[aq]\ \-exec\ wc\ \-l\ {}\ \\;
+find\ root_path\ \-name\ \[aq]*.py\[aq]\ \-exec\ rm\ {}\ \\;
+\f[]
+.fi
+.PP
+Find files modified since a certain time.
+.IP
+.nf
+\f[C]
+find\ root_path\ \-name\ \[aq]*.py\[aq]\ \-mtime\ \-1d
+\f[]
+.fi
+.SH AUTHORS
+Pranav Raja, Romain Prieto, Boris Egorov.

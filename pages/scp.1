@@ -1,0 +1,64 @@
+.TH "SCP" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+scp \- Copies files between hosts on a network.
+Works over a secure connection (SSH).
+.SH EXAMPLES
+.PP
+Upload a file.
+.IP
+.nf
+\f[C]
+scp\ /local/file.txt\ 10.0.0.1:/remote/path/
+\f[]
+.fi
+.PP
+Upload and rename a file.
+.IP
+.nf
+\f[C]
+scp\ /local/file.txt\ 10.0.0.1:/remote/path/newname.txt
+\f[]
+.fi
+.PP
+Download a file.
+.IP
+.nf
+\f[C]
+scp\ 10.0.0.1:/remote/path/file.txt\ /local/folder
+\f[]
+.fi
+.PP
+Upload a directory.
+.IP
+.nf
+\f[C]
+scp\ \-r\ /local/folder\ 10.0.0.1:/remote/path/
+\f[]
+.fi
+.PP
+Download a directory.
+.IP
+.nf
+\f[C]
+scp\ \-r\ 10.0.0.1:/remote/path\ /local/folder
+\f[]
+.fi
+.PP
+Specify username on host.
+.IP
+.nf
+\f[C]
+scp\ /local/file.txt\ my_user\@10.0.0.1:/remote/path
+\f[]
+.fi
+.PP
+Copy a file from one host to another.
+.IP
+.nf
+\f[C]
+scp\ 10.0.0.1:/remote/path/file.txt\ 20.0.0.2:/other/remote/path
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Alexander Jegtnes, Boris Egorov.

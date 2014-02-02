@@ -1,0 +1,32 @@
+.TH "LSOF" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+lsof \- Lists open files and the corresponding processes
+.SH EXAMPLES
+.PP
+Find the processes that have a given file open.
+.IP
+.nf
+\f[C]
+lsof\ /path/to/file
+\f[]
+.fi
+.PP
+Find the process that opened a local internet port.
+.IP
+.nf
+\f[C]
+lsof\ \-i\ :8080
+\f[]
+.fi
+.PP
+Only output the process PID (e.g.
+to pipe into kill).
+.IP
+.nf
+\f[C]
+lsof\ \-t\ /path/to/file\ |\ xargs\ kill\ \-9
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Boris Egorov.

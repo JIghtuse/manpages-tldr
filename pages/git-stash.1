@@ -1,0 +1,47 @@
+.TH "GIT\-STASH" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+git stash \- stash local Git changes in a temporary area
+.SH EXAMPLES
+.PP
+Stash current changes (except new files).
+.IP
+.nf
+\f[C]
+git\ stash\ optional_stash_name
+\f[]
+.fi
+.PP
+Include new files in the stash (leaves the index completely clean).
+.IP
+.nf
+\f[C]
+git\ stash\ \-u\ optional_stash_name
+\f[]
+.fi
+.PP
+List all stashes.
+.IP
+.nf
+\f[C]
+git\ stash\ list
+\f[]
+.fi
+.PP
+Re\-apply the latest stash.
+.IP
+.nf
+\f[C]
+git\ stash\ pop
+\f[]
+.fi
+.PP
+Re\-apply a stash by name.
+.IP
+.nf
+\f[C]
+git\ stash\ apply\ stash_name
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Boris Egorov.

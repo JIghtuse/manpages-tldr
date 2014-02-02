@@ -1,0 +1,47 @@
+.TH "PACMAN" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+pacman \- Arch Linux package manager utility
+.SH EXAMPLES
+.PP
+Synchronize and update all packages.
+.IP
+.nf
+\f[C]
+pacman\ \-Syyu
+\f[]
+.fi
+.PP
+Install a new package.
+.IP
+.nf
+\f[C]
+pacman\ \-S\ package\-name
+\f[]
+.fi
+.PP
+Remove a package and its dependencies.
+.IP
+.nf
+\f[C]
+pacman\ \-Rs\ package\-name
+\f[]
+.fi
+.PP
+Search the package database for a keyword.
+.IP
+.nf
+\f[C]
+pacman\ \-Ss\ icon\ theme
+\f[]
+.fi
+.PP
+List installed packages and versions.
+.IP
+.nf
+\f[C]
+pacman\ \-Q
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Boris Egorov.

@@ -1,0 +1,39 @@
+.TH "DU" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+du \- Estimate file space usage
+.SH EXAMPLES
+.PP
+Get file sizes of directory\[aq]s content.
+.IP
+.nf
+\f[C]
+du\ file/directory
+\f[]
+.fi
+.PP
+Get total size in human readable form.
+.IP
+.nf
+\f[C]
+du\ \-sh\ file/directory
+\f[]
+.fi
+.PP
+Get recursively, individual file/folder sizes in human readable form.
+.IP
+.nf
+\f[C]
+du\ \-ah\ directory
+\f[]
+.fi
+.PP
+Get file sizes till a specified depth.
+.IP
+.nf
+\f[C]
+du\ \-\-max\-depth=1
+\f[]
+.fi
+.SH AUTHORS
+Shrayas Rajagopal, Boris Egorov.

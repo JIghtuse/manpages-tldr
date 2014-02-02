@@ -1,0 +1,56 @@
+.TH "GREP" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+grep \- Matches patterns in input text.
+Supports simple patterns and regular expressions.
+.SH EXAMPLES
+.PP
+Search for an exact string.
+.IP
+.nf
+\f[C]
+grep\ something\ file_path
+\f[]
+.fi
+.PP
+Search recursively in current directory for an exact string.
+.IP
+.nf
+\f[C]
+grep\ \-r\ something\ .
+\f[]
+.fi
+.PP
+Use a regex.
+.IP
+.nf
+\f[C]
+grep\ \-e\ ^regex$\ file_path
+\f[]
+.fi
+.PP
+See 3 lines of context.
+.IP
+.nf
+\f[C]
+grep\ \-C\ 3\ something\ file_path
+\f[]
+.fi
+.PP
+Print the number of matches.
+.IP
+.nf
+\f[C]
+grep\ \-c\ something\ file_path
+\f[]
+.fi
+.PP
+Use the standard input instead of a file.
+.IP
+.nf
+\f[C]
+cat\ file_path\ |\ grep\ something
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Camilla Krag Jensen, Boris Egorov.

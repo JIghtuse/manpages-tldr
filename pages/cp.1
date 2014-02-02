@@ -1,0 +1,40 @@
+.TH "CP" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+cp \- copy files
+.SH EXAMPLES
+.PP
+Copy files in arbitrary locations.
+.IP
+.nf
+\f[C]
+cp\ /path/to/original\ /path/to/copy
+\f[]
+.fi
+.PP
+Copy a file to a parent directory.
+.IP
+.nf
+\f[C]
+cp\ /path/to/original\ ..//path/to/copy
+\f[]
+.fi
+.PP
+Copy directories recursive using the option \-r..
+.IP
+.nf
+\f[C]
+cp\ \-r\ /path/to/original\ /path/to/copy
+\f[]
+.fi
+.PP
+Copy files in verbose mode, showing files as they are copied.
+(Mostly interesting with \-r option)..
+.IP
+.nf
+\f[C]
+cp\ \-vr\ /path/to/original\ /path/to/copy
+\f[]
+.fi
+.SH AUTHORS
+Erwann Mest, Boris Egorov.

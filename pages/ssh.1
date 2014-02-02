@@ -1,0 +1,33 @@
+.TH "SSH" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+SSH \- Secure Shell is a protocol used to securely log onto remote
+systems.
+It can be used for logging or executing commands on a remote server.
+.SH EXAMPLES
+.PP
+Connecting to a remote server.
+.IP
+.nf
+\f[C]
+ssh\ username\@remote_host
+\f[]
+.fi
+.PP
+Connecting to a remote server with specific port.
+.IP
+.nf
+\f[C]
+ssh\ username\@remote_host\ \-P\ 2222
+\f[]
+.fi
+.PP
+Ssh tunneling.
+.IP
+.nf
+\f[C]
+ssh\ \-D\ 9999\ \-C\ username\@remote_host
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Ricardo Pascua Jr, Boris Egorov.

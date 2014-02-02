@@ -1,0 +1,45 @@
+.TH "SVN" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+svn \- Subversion command line client tool
+.SH EXAMPLES
+.PP
+Check out a working copy from a repository.
+.IP
+.nf
+\f[C]
+svn\ co\ url/to/repository
+\f[]
+.fi
+.PP
+Bring changes from the repository into the working copy.
+.IP
+.nf
+\f[C]
+svn\ up
+\f[]
+.fi
+.PP
+Put files and directories under version control, scheduling them for
+addition to repository.
+They will be added in next commit..
+.IP
+.nf
+\f[C]
+svn\ add\ PATH...
+\f[]
+.fi
+.PP
+Send changes from your working copy to the repository.
+.PP
+\f[C]svn\ ci\ \-m\ commit\ log\ message\ [PATH...]\f[]
+.PP
+Show detailed help.
+.IP
+.nf
+\f[C]
+svn\ help
+\f[]
+.fi
+.SH AUTHORS
+Benedikt Ritter, Boris Egorov.

@@ -1,0 +1,32 @@
+.TH "TAR" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+tar \- Archiving utility.
+Optional compression with gzip / bzip.
+.SH EXAMPLES
+.PP
+Create an archive from files.
+.IP
+.nf
+\f[C]
+tar\ cf\ target.tar\ file1\ file2\ file3
+\f[]
+.fi
+.PP
+Create a gzipped archive.
+.IP
+.nf
+\f[C]
+tar\ cfz\ target.tar.gz\ file1\ file2\ file3
+\f[]
+.fi
+.PP
+Extract an archive in a target folder.
+.IP
+.nf
+\f[C]
+tar\ xf\ source.tar\ \-C\ folder
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Boris Egorov.

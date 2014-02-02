@@ -1,0 +1,32 @@
+.TH "SED" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+sed \- Run replacements based on regular expressions
+.SH EXAMPLES
+.PP
+Replace all occurrences of a string in a file, and print the result.
+.IP
+.nf
+\f[C]
+sed\ \[aq]s/find/replace/g\[aq]\ filename
+\f[]
+.fi
+.PP
+Replace all occurrences of a string in a file, and overwrite the file
+contents.
+.IP
+.nf
+\f[C]
+sed\ \-i\ \[aq]\[aq]\ \[aq]s/find/replace/g\[aq]\ filename
+\f[]
+.fi
+.PP
+Replace all occurrences of an extended regular expression in a file.
+.IP
+.nf
+\f[C]
+sed\ \-E\ \[aq]s/regex/replace/g\[aq]\ filename
+\f[]
+.fi
+.SH AUTHORS
+Pranav Raja, Boris Egorov.

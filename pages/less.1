@@ -1,0 +1,49 @@
+.TH "LESS" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.SH NAME
+.PP
+less \- Opens a file for reading.
+Allows movement and search.
+Doesn\[aq]t read the entire file (suitable for logs).
+.SH EXAMPLES
+.PP
+Open a file.
+.IP
+.nf
+\f[C]
+less\ source_file
+\f[]
+.fi
+.PP
+Page up / down.
+.IP
+.nf
+\f[C]
+d\ (next),\ D\ (previous)
+\f[]
+.fi
+.PP
+Go to start / end of file.
+.IP
+.nf
+\f[C]
+g\ (start),\ G\ (end)
+\f[]
+.fi
+.PP
+Search for a string.
+.IP
+.nf
+\f[C]
+/something\ \ \ then\ \ \ n\ (next),\ N\ (previous)
+\f[]
+.fi
+.PP
+Exit.
+.IP
+.nf
+\f[C]
+q
+\f[]
+.fi
+.SH AUTHORS
+Romain Prieto, Boris Egorov.
