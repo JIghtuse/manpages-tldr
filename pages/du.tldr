@@ -1,4 +1,4 @@
-.TH "DU" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.TH DU 1 "2014\-02\-02" "manpages\-tldr manuals"
 .SH NAME
 .PP
 du \- Estimate file space usage

@@ -1,4 +1,4 @@
-.TH "SED" "1" "2014\-02\-02" "manpages\-tldr manuals" ""
+.TH SED 1 "2014\-02\-02" "manpages\-tldr manuals"
 .SH NAME
 .PP
 sed \- Run replacements based on regular expressions
