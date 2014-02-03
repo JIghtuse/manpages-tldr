@@ -12,6 +12,13 @@ This project aims to make fast-updated, practical and precise manpages with
 but written as part of real manpages (mostly converted from Markdown with
 pandoc).
 
+Warning
+-------
+
+manpages-tldr neither tries to replace original manpages nor compete with them.
+You **must** read real manpages. Use manpages-tldr only if you really have no
+time. If you note that some real manpage needs example, try to add it there.
+
 CONTRIBUTING
 ------------
 
