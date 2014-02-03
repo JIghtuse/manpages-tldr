@@ -2,6 +2,7 @@
 .SH NAME
 .PP
 chown \- change the owning user/group of the specified files
+.SH EXAMPLES
 .PP
 Change the user of a file.
 .IP

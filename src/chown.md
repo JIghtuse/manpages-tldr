@@ -6,6 +6,8 @@
 
 chown - change the owning user/group of the specified files
 
+# EXAMPLES
+
 Change the user of a file.
 
     chown user path/to/file
