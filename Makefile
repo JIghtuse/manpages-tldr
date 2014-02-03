@@ -1,7 +1,10 @@
 SRC ?= $(wildcard src/*.md)
 PAGES ?= $(addprefix pages/, $(patsubst %.md,%.tldr,$(notdir $(SRC))))
+HTMLPAGES ?= $(addprefix html/, $(patsubst %.md,%.html,$(notdir $(SRC))))
 
 all: $(PAGES)
+
+html: $(HTMLPAGES)
 
 clean: $(PAGES)
 	rm -f $(PAGES)
@@ -22,3 +25,6 @@ install:
 
 pages/%.tldr: src/%.md
 	pandoc -s -t man -o $@ $^
+
+html/%.html: src/%.md
+	pandoc -s -o $@ $^
