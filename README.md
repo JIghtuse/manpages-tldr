@@ -19,6 +19,22 @@ manpages-tldr neither tries to replace original manpages nor compete with them.
 You **must** read real manpages. Use manpages-tldr only if you really have no
 time. If you note that some real manpage needs example, try to add it there.
 
+Installation
+------------
+
+Run `make install` as root. Manpages will be installed to
+`/usr/local/share/man/mant`. Now you can use them like this:
+
+    man -s tldr scp
+
+You can add alias to your `.bashrc` file for easier usage:
+
+    echo "alias tldr='man -s tldr'" >> ~/.bashrc
+
+After that, you will be able to use manpages-tldr like that:
+
+    tldr scp
+
 CONTRIBUTING
 ------------
 
@@ -30,8 +46,8 @@ of good commit messages.
 Example
 -------
 
-After typing `man tldr scp` you will see usual manpage (see `man tldr man` for
-usage):
+After typing `man -s tldr scp` you will see usual manpage (see `man -s tldr man`
+for usage):
 
     SCP(1)                                                                  SCP(1)
     
