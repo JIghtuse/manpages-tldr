@@ -10,11 +10,14 @@ clean: $(PAGES)
 	rm -f $(PAGES)
 
 CURRENT_DIR = $(shell pwd)
+MAN_DIR = /usr/share/man
+TLDR_DIR = $(MAN_DIR)/mant
 
 install:
 	@echo "Linking 'tldr' manpages"
 # TODO: check it does not already exist
-	ln -s $(CURRENT_DIR)/pages/ $(MAN_DIR)/mant
+	mkdir -p $(TLDR_DIR)
+	cp -n $(CURRENT_DIR)/pages/* $(TLDR_DIR)
 
 pages/%.tldr: src/%.md
 	pandoc -s -t man -o $@ $^
