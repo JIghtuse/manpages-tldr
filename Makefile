@@ -10,7 +10,7 @@ clean: $(PAGES)
 	rm -f $(PAGES)
 
 CURRENT_DIR = $(shell pwd)
-MAN_DIR = /usr/share/man
+MAN_DIR = /usr/local/share/man
 TLDR_DIR = $(MAN_DIR)/mant
 
 install:
