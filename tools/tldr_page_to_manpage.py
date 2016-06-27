@@ -7,6 +7,8 @@ from subprocess import Popen, PIPE
 
 
 def process_file(tldr_filename, manpage_filename):
+    tldr_dir, tldr_file = os.path.split(tldr_filename)
+
     with open(tldr_filename) as inp:
         data = inp.readlines()
 
@@ -26,8 +28,8 @@ def process_file(tldr_filename, manpage_filename):
         git = Popen(['git',
                      'log',
                      '--format=%aN',
-                     tldr_filename],
-                    cwd=os.path.dirname(tldr_filename),
+                     tldr_file],
+                    cwd=tldr_dir,
                     stdout=PIPE,
                     stderr=PIPE)
 
