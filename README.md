@@ -35,6 +35,14 @@ After that, you will be able to use manpages-tldr like that:
 
     tldr scp
 
+You can also use [tools/thinpage.sh](tools/thinpage.sh) script to download and
+read some page without installation:
+
+    ./tools/thinpage.sh scp
+
+This command will download page from github to /tmp directory and open it in
+man pages reader.
+
 CONTRIBUTING
 ------------
 
