@@ -22,5 +22,8 @@ install:
 pages/%.tldr: src/%.md
 	pandoc -s -t man -o $@ $^
 
-html/%.html: src/%.md
+html/%.html: src/%.md | html/
 	pandoc -s -o $@ $^
+
+html/:
+	mkdir -p $@
