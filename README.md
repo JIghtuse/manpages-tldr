@@ -19,8 +19,32 @@ manpages-tldr neither tries to replace original manpages nor compete with them.
 You **must** read real manpages. Use manpages-tldr only if you really have no
 time. If you note that some real manpage needs example, try to add it there.
 
-Installation
-------------
+
+Installation for current user
+-----------------------------
+
+To install manpages to your home directory, run command like this:
+
+    MAN_DIR=$HOME/.local/share/man make install
+
+Manpages will be installed to `$HOME/.local/share/man/mant`. Now you need to tell `man` command to look for manpages there. To do this, set environment variable `MANPATH`. If you need, you can do it in `$HOME/.bashrc` to avoid repeatedly setting this variable for all new terminal sessions.
+
+    export MANPATH=$HOME/.local/share/man:$MANPATH
+
+Now you can use tldr manpages like this:
+
+    man -s tldr scp
+
+You can add alias to your `.bashrc` file for easier usage:
+
+    echo "alias tldr='man -s tldr'" >> ~/.bashrc
+
+After that, you will be able to use manpages-tldr like that:
+
+    tldr scp
+
+System-wide installation
+------------------------
 
 Run `make install` as root. Manpages will be installed to
 `/usr/local/share/man/mant`. Now you can use them like this:
